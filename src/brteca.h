@@ -1,51 +1,46 @@
 #include <stdio.h>
-		
-	#define inicio	 	int main(){
-	#define fim	 	}
-//Variáveis
-	#define inteiro  	int
-	#define real 		double
-	#define texto		char
-//I/O
-	#define leia	 	scanf
-	#define	escreva	 	printf
-//Condicionais
-	#define se	 	if
-	#define entao		{
-//apenas para "aportuguesar" as condições
-	#define que
-	#define a
-	#define pode		if
-	#define ser
-	#define que
-	#define tente		{
-	#define senao		else
-	#define fimse	 	}
-	#define fimsenao	}
-//Laços de repetição
-	#define enquanto 	while
-	#define fimenquanto 	}
-	#define escolha	 	switch
-	#define fimescolha 	}
-	#define caso	 	case
-	#define pare	 	break;
-	#define para		for
-	#define fimpara		}
-//Operadores matemáticos
-	#define dividido	/
-	#define vezes		*
-	#define	mais		+
-	#define menos		-
-//Apenas para "aportuguesar" operadores
-	#define por
-//Operadores lógico
-	#define maior 	 	>
-	#define menor 	 	<
-	#define igual 	 	==
-	#define diferente 	!
-	#define e		&&
-	#define ou		||
-	#define	oux		^^
-//EasterEgg BRs
-	#define HUE		while(1) printf("HUE");
-	#define xablau          while(1) system("start"); system("explorer.exe"); //futuramente em linux
+
+//Máscaras
+
+//início e fim
+#define inicio			int main(){
+#define fim			}
+
+//Tipos de dados
+#define  inteiro		int
+#define real			float
+#define	caractere		char
+#define logico 			int
+#define verdadeiro		1
+#define falso			0
+
+//Operadores lógicos e matemáticos
+#define mod			%
+#define e			&&
+#define ou			||
+
+//Entrada e Saída
+#define escreva			printf
+#define leia 			scanf
+
+//Estrutura de condicionamento
+#define se 			if
+#define entao 			{
+#define fim_se			}
+#define senao			}else{
+#define escolha			switch
+#define caso			case
+#define outrocaso		default
+#define pare			break
+#define fim_escolha		}
+
+//Estrutura de repetição 
+#define	enquanto		while
+#define faca			{
+#define fim_enquanto		}
+#define	repita			do{
+#define ate			}while
+#define para			for
+#define fim_para		}
+
+//Autor: Lucas Souza Reis - lucasprk95@gmail.com
